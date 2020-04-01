@@ -2,6 +2,8 @@
 
 Type Morse code by opening and closing your laptop.
 
+[![output](https://user-images.githubusercontent.com/8890878/78181506-882c1a80-7432-11ea-89c0-bee00e9d183f.gif)](https://youtu.be/UAQ60P61vYw)
+
 ## Setup
 ### Dependencies
 * [xdotool](http://manpages.ubuntu.com/manpages/trusty/man1/xdotool.1.html)
