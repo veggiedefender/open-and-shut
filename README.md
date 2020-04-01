@@ -1,6 +1,6 @@
 # Open and Shut
 
-Type Morse code by opening and closing your laptop.
+Type in Morse code by repeatedly slamming your laptop shut
 
 [![output](https://user-images.githubusercontent.com/8890878/78181506-882c1a80-7432-11ea-89c0-bee00e9d183f.gif)](https://youtu.be/UAQ60P61vYw)
 
