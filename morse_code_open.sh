@@ -6,8 +6,9 @@ opened_at=$(date +%s%3N)
 dot_length=250
 dash_length=3000
 
-# Duration to pause before typing a letter, in seconds
+# Duration to pause before typing a letter or space, in seconds
 letter_pause=2
+space_pause=2
 
 declare -A morse_letters=(
     [.-]=A
@@ -67,7 +68,9 @@ elif [ "$elapsed" -lt "$dash_length" ]; then
 fi
 
 sleep "$letter_pause"
-
 sequence=$(cat /tmp/morse_code_letter)
 xdotool type "${morse_letters[$sequence]}"
 rm /tmp/morse_code_letter
+
+sleep "$space_pause"
+xdotool type " "
