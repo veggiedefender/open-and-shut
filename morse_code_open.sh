@@ -95,6 +95,9 @@ fi
 
 sleep "$letter_pause"
 sequence=$(cat /tmp/morse_code_letter)
+if [[ ! -v "morse_letters[$sequence]" ]] ; then
+    exit 0
+fi
 xdotool type "${morse_letters[$sequence]}"
 rm /tmp/morse_code_letter
 
