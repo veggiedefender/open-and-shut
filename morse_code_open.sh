@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 opened_at=$(date +%s%3N)
+pkill -f morse_code_close.sh
 
 # Max duration of a dot and dash, in milliseconds
 dot_length=250
@@ -88,6 +89,8 @@ if [ "$elapsed" -lt "$dot_length" ]; then
     printf "%s" "." >> /tmp/morse_code_letter
 elif [ "$elapsed" -lt "$dash_length" ]; then
     printf "%s" "-" >> /tmp/morse_code_letter
+else
+    exit 0
 fi
 
 sleep "$letter_pause"
