@@ -12,7 +12,7 @@ Type in Morse code by repeatedly slamming your laptop shut
 
 ## Setup
 ### Dependencies
-* [xdotool](http://manpages.ubuntu.com/manpages/trusty/man1/xdotool.1.html)
+* [evemu](https://freedesktop.org/wiki/Evemu/)
 * [acpid](https://wiki.archlinux.org/index.php/Acpid)
 
 ### Installation
