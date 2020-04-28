@@ -11,6 +11,8 @@ Type in Morse code by repeatedly slamming your laptop shut
 * Closing your laptop now types the letter E instead of locking
 
 ## Setup
+
+Note: For wayland support, check out the [`wayland` branch](https://github.com/veggiedefender/open-and-shut/tree/wayland).
 ### Dependencies
 * [xdotool](http://manpages.ubuntu.com/manpages/trusty/man1/xdotool.1.html)
 * [acpid](https://wiki.archlinux.org/index.php/Acpid)
