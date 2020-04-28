@@ -15,6 +15,9 @@ Type in Morse code by repeatedly slamming your laptop shut
 * [evemu](https://freedesktop.org/wiki/Evemu/)
 * [acpid](https://wiki.archlinux.org/index.php/Acpid)
 
+### Choosing your keyboard
+Use `evemu-describe` to find the correct path for your keyboard device and replace `KEYBOARD_DEV` in `morse_code_open.sh` with it. 
+
 ### Installation
 Clone this repository and copy files into `/etc/acpi`
 ```
